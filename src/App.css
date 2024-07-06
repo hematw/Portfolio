@@ -2,6 +2,13 @@
 
 body {
     font-family: 'ClashDisplay', sans-serif;
+    background-color: #131314;
+    color: #fdfdfd;
+    overflow-x: hidden;
+}
+
+#root {
+    /* border: 2px solid white; */
 }
 
 .im {
@@ -32,4 +39,31 @@ body {
     content: '🎤';
     bottom: -20px;
     right: -20px;
+}
+
+.slide {
+    width: 110vw;
+}
+
+.slide div span {
+    height: 100%;
+}
+
+.slide span::after {
+    content: '✦';
+    margin-inline: 8px;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.slide div {
+    animation: 45s slide infinite linear;
 }

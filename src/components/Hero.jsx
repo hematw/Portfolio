@@ -1,23 +1,30 @@
 export default function Hero() {
     return (
-        <div className="flex items-center justify-between tracking-wide min-h-[90vh]">
+        <div
+            className="flex flex-col-reverse md:flex-row md:text-left items-center justify-between tracking-wide text-center min-h-[600px] max-w-[1270px] m-auto">
             <div className="w-4/5">
-                <h1 className="relative text-7xl font-bold leading-tight">
-                    <span className="absolute -top-8 -left-9 im font-extralight text-yellow-600">I'm</span>
+                <h1 className="relative text-5xl md:text-7xl font-bold leading-tight">
+                    <span
+                        className="absolute -top-8 -left-9 im font-extralight text-yellow-600">
+                        I'm
+                    </span>
                     Hematullah<br /> Waziri
                 </h1>
-                <h3 className="text-3xl font-light leading-snug mt-10">An aspiring MERN Stack Developer. Bringing ideas to life through code, crafting dynamic and engaging applications that innovate and inspire.</h3>
-                <div className="flex gap-4 mt-10">
+
+                <h3 className="text-xl md:text-3xl font-light leading-snug mt-4 md:mt-10">
+                    An aspiring MERN Stack Developer. Bringing ideas to life through code, crafting dynamic and engaging applications that innovate and inspire.
+                </h3>
+
+                <div className="flex flex-col md:flex-row gap-4 mt-10 text-lg md:text-2xl">
                     <a
                         href="#"
-                        className="text-3xl px-10 py-4 rounded-2xl relative hero-btn"
-                    >
+                        className="px-10 py-4 rounded-2xl relative hero-btn">
                         Hire Me
                     </a>
+
                     <a
                         href="#"
-                        className="text-3xl px-10 py-4 rounded-2xl relative hero-btn"
-                    >
+                        className="px-10 py-4 rounded-2xl relative hero-btn">
                         My Story
                     </a>
                 </div>

@@ -1,17 +1,23 @@
+import { useEffect } from 'react'
 import './App.css'
+import About from './components/About'
 import Header from './components/Header'
 import Hero from './components/Hero'
 
 function App() {
 
-  return (
-    <div className='bg-zinc-900 text-white'>
-      <Header />
-      <main className='max-w-[1270px] m-auto'>
-        <Hero />
+  useEffect(() => {
+    document.title = "Hematullah Waziri | Portfolio"
+  })
 
+  return (
+    <>
+      <Header />
+      <main className=''>
+        <Hero />
+        <About />
       </main>
-    </div>
+    </>
   )
 }
 
