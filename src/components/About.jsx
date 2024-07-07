@@ -26,7 +26,7 @@ export default function About() {
                 <h1 className="text-center md:text-left font-semibold text-3xl underline md:text-5xl">
                     About Me
                 </h1>
-                <div className="flex flex-col-reverse md:flex-row items-center mt-10">
+                <div className="flex flex-col-reverse md:flex-row items-center md:mt-10">
                     <div className="w-1/3 m-auto md:mr-16">
                         <img
                             src="./about-avatar.png"

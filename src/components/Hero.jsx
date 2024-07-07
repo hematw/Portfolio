@@ -5,10 +5,10 @@ export default function Hero() {
             <div className="w-4/5">
                 <h1 className="relative text-5xl md:text-7xl font-bold leading-tight">
                     <span
-                        className="absolute -top-8 -left-9 im font-extralight text-yellow-600">
-                        I'm
+                        className="name">
+                        Hematullah
                     </span>
-                    Hematullah<br /> Waziri
+                    <br /> Waziri
                 </h1>
 
                 <h3 className="text-xl md:text-3xl font-light leading-snug mt-4 md:mt-10">

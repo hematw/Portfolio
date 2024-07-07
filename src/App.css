@@ -11,8 +11,21 @@ body {
     /* border: 2px solid white; */
 }
 
-.im {
+.name::before {
+    content: 'I\'m';
     font-family: 'Beauty';
+    color: rgb(227, 147, 36);
+    position: absolute;
+    top: -.4em;
+    left: -.5em;
+    font-weight: lighter;
+
+}
+
+@media (max-width: 768px) {
+    .name::before {
+        left: -.2em;
+    }
 }
 
 .hero-btn {
