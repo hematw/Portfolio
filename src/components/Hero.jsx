@@ -1,7 +1,8 @@
 export default function Hero() {
     return (
         <div
-            className="flex flex-col-reverse md:flex-row md:text-left items-center justify-between tracking-wide text-center min-h-[600px] max-w-[1270px] m-auto">
+            id="home"
+            className="flex flex-col-reverse md:flex-row md:text-left items-center justify-between tracking-wide text-center min-h-[600px]">
             <div className="w-4/5">
                 <h1 className="relative text-5xl md:text-7xl font-bold leading-tight">
                     <span

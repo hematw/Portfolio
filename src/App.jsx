@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <Header />
-      <main className=''>
+      <main className='max-w-[1270px] m-auto'>
         <Hero />
         <About />
         <Projects />

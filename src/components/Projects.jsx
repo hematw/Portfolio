@@ -2,7 +2,9 @@ import Services from "./Services";
 
 export default function Projects() {
     return (
-        <div className="max-w-[1270px] m-auto p-10">
+        <div
+            id="project"
+            className="m-auto p-10">
             <div>
                 <h1 className="text-center md:text-left font-semibold text-3xl underline md:text-5xl">
                     Projects

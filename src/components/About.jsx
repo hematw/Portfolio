@@ -1,7 +1,7 @@
 
 export default function About() {
     return (
-        <div className="max-w-[1270px] m-auto">
+        <div>
             <div
                 className="relative -left-20 text-nowrap font-semibold md:text-3xl py-2 md:py-4 shadow-eql shadow-white -rotate-3 my-20 slide overflow-hidden">
                 <div className="inline-block uppercase">
@@ -32,7 +32,9 @@ export default function About() {
                 </div>
             </div>
 
-            <div className="px-10 leading-snug">
+            <div
+                id="about"
+                className="px-10 leading-snug">
                 <h1 className="text-center md:text-left font-semibold text-3xl underline md:text-5xl">
                     About Me
                 </h1>

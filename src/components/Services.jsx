@@ -17,7 +17,9 @@ export default function Services() {
     }
 
     return (
-        <div className="mt-24">
+        <div
+            id="services"
+            className="mt-24 px-10">
             <h1 className="text-center md:text-left font-semibold text-3xl underline md:text-5xl mb-10">
                 Services
             </h1>
