@@ -3,22 +3,32 @@ export default function About() {
     return (
         <div className="max-w-[1270px] m-auto">
             <div
-                className="relative -left-20 text-nowrap font-semibold md:text-2xl py-2 md:py-4 shadow-eql shadow-white -rotate-3 my-20 slide">
-                <div className="inline-block">
-                    <span>Responsive Web Design</span>
-                    <span>Single Page Application (SPA) Development</span>
-                    <span>API Integration</span>
-                    <span>RESTful Services</span>
-                    <span>Modern Front-end Frameworks & Libraries</span>
-                    <span>Web Accessibility & Optimization</span>
+                className="relative -left-20 text-nowrap font-semibold md:text-3xl py-2 md:py-4 shadow-eql shadow-white -rotate-3 my-20 slide overflow-hidden">
+                <div className="inline-block uppercase">
+                    <span>ReactJS</span>
+                    <span>TailwindCSS</span>
+                    <span>Bootstrap</span>
+                    <span>NodeJS</span>
+                    <span>ExpressJS</span>
+                    <span>Javascript</span>
+                    <span>Mongo DB</span>
+                    <span>Mysql</span>
+                    <span>RESTful API</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
                 </div>
-                <div className="inline-block">
-                    <span>Responsive Web Design</span>
-                    <span>Single Page Application (SPA) Development</span>
-                    <span>API Integration</span>
-                    <span>RESTful Services</span>
-                    <span>Modern Front-end Frameworks & Libraries</span>
-                    <span>Web Accessibility & Optimization</span>
+                <div className="inline-block uppercase">
+                    <span>ReactJS</span>
+                    <span>TailwindCSS</span>
+                    <span>Bootstrap</span>
+                    <span>NodeJS</span>
+                    <span>ExpressJS</span>
+                    <span>RESTful API</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Javascript</span>
+                    <span>Mongo DB</span>
+                    <span>Mysql</span>
                 </div>
             </div>
 

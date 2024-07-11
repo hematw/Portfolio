@@ -1,3 +1,4 @@
+import Services from "./Services";
 
 export default function Projects() {
     return (
@@ -68,7 +69,7 @@ export default function Projects() {
                     />
                 </a>
             </div>
-
+            <Services />
         </div>
     )
 }
