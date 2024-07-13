@@ -18,7 +18,7 @@ export default function Hero() {
 
                 <div className="flex flex-col md:flex-row gap-4 mt-10 text-lg md:text-2xl">
                     <a
-                        href="#"
+                        href="mailto:hematking12@gmail.com"
                         className="px-10 py-4 rounded-2xl relative hero-btn">
                         Hire Me
                     </a>

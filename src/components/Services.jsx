@@ -1,8 +1,8 @@
 export default function Services() {
     const services = ["Responsive Web Design", "Single Page Application", "API Integration", "Web Optimization", "RESTful Services", "Front-end Development", "Web Accessibility", "Back-end Development"];
 
-    const servicesEls = services.map(service => (
-        <span className="border-2 border-gray-400 rounded-3xl py-2 px-4 m-2 bg-gradient-to-t from-zinc-900 to-zinc-700">
+    const servicesEls = services.map((service, index) => (
+        <span key={index} className="border-2 border-gray-400 rounded-3xl py-2 px-4 m-2 bg-gradient-to-t from-zinc-900 to-zinc-700">
             {service}
         </span>
     ))

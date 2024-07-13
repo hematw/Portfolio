@@ -3,7 +3,7 @@ export default function About() {
     return (
         <div>
             <div
-                className="relative -left-20 text-nowrap font-semibold md:text-3xl py-2 md:py-4 shadow-eql shadow-white -rotate-3 my-20 slide overflow-hidden">
+                className="relative -left-5 md:-left-20 text-nowrap font-semibold md:text-3xl py-2 md:py-4 shadow-eql shadow-white -rotate-3 my-20 slide overflow-hidden">
                 <div className="inline-block uppercase">
                     <span>ReactJS</span>
                     <span>TailwindCSS</span>
