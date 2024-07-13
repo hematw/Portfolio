@@ -2,7 +2,7 @@ import { TbDownload } from "react-icons/tb";
 
 export default function Header() {
     return (
-        <header className="flex justify-between p-8  relative">
+        <header className="flex justify-between p-4 md:p-8  relative">
             <nav class=" border-gray-200 w-full">
                 <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <a
@@ -27,7 +27,7 @@ export default function Header() {
                         <button
                             data-collapse-toggle="navbar-cta"
                             type="button"
-                            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden focus:outline-none focus:ring-2 hover:bg-white-700 focus:ring-white"
+                            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white md:hidden focus:outline-none hover:bg-white-700"
                             aria-controls="navbar-cta"
                             aria-expanded="false">
                             <span
