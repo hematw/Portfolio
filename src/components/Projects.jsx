@@ -1,10 +1,10 @@
-import Services from "./Services";
+import ColorfulBlurShapesTwo from "./ColorfulBlurShapeTwo";
 
 export default function Projects() {
     return (
         <div
             id="projects"
-            className="m-auto p-10">
+            className="m-auto p-10  relative">
             <div>
                 <h1 className="text-center md:text-left font-semibold text-3xl underline md:text-5xl">
                     Projects
@@ -71,7 +71,7 @@ export default function Projects() {
                     />
                 </a>
             </div>
-            <Services />
+            <ColorfulBlurShapesTwo />
         </div>
     )
 }

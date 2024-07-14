@@ -21,7 +21,7 @@ export default function Services() {
             id="services"
             className="mt-24 px-10">
             <h1 className="text-center md:text-left font-semibold text-3xl underline md:text-5xl mb-10">
-                Services
+                What can I Do
             </h1>
             <div
                 className="relative -left-20 text-nowrap md:text-3xl py-2 md:py-4 my-2 slide font-thin">

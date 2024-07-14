@@ -1,10 +1,21 @@
+import { SiBuymeacoffee } from "react-icons/si";
+
 export default function Footer() {
     return (
         <footer className="p-4 md:p-10 mt-10">
             <div className=" p-4 bg-gradient-to-t from-neutral-950 to-neutral-500 border-2 rounded-xl border-zinc-500 md:p-10 md:pb-0">
                 <div className="flex gap-6 md:items-center flex-col md:flex-row justify-around">
-                    <div className="w-1/3 flex-grow">
-                        <img src="/hero_avatar.png" alt="" className="md:w-72 m-auto" />
+                    <div className="flex items-center justify-around">
+                        <div className="w-1/3 h-44">
+                            <img src="/2.png" alt="" className="md:w-72 m-auto" />
+                        </div>
+                        <a
+                            href="https://buymeacoffee.com/hekax8rf06"
+                            target="_blank"
+                            className="bg-yellow-400 text-black flex items-center rounded-xl px-4 py-2 text-lg font-semibold border">
+                            <SiBuymeacoffee />
+                            <span>Buy me a coffee</span>
+                        </a>
                     </div>
                     <div className="flex gap-2 flex-grow md:text-right">
                         <div className="text-sm md:text-lg w-1/2">

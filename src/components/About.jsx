@@ -41,7 +41,7 @@ export default function About() {
                 <div className="flex flex-col-reverse md:flex-row items-center md:mt-10">
                     <div className="w-1/3 m-auto md:mr-16">
                         <img
-                            src="./about-avatar.png"
+                            src="./3.png"
                             alt=""
                         />
                     </div>

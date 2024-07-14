@@ -16,7 +16,7 @@ export default function Header() {
                     </a>
                     <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
                         <a
-                            href="/ejs.pdf"
+                            href="/Hemat_resume.pdf"
                             download type="button"
                             className="text-white focus:bg-zinc-700 focus:outline-none focus:ring-blue-300 rounded-lg text-sm px-4 py-2 text-center  flex font-semibold items-center">
                             Resume
@@ -39,7 +39,7 @@ export default function Header() {
                         </button>
                     </div>
                     <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
-                        <ul className="w-full flex bg-[#131314] flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
+                        <ul className="w-full flex bg-[#131314] md:bg-transparent flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
                             <li>
                                 <a
                                     href="#home"
