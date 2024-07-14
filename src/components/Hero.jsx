@@ -1,9 +1,11 @@
+import ColorfulBlurShapes from "./ColorfulBlurShapes"
+
 export default function Hero() {
     return (
         <div
             id="home"
-            className="flex flex-col-reverse md:flex-row md:text-left items-center justify-between tracking-wide text-center min-h-[600px]">
-            <div className="w-4/5">
+            className="flex flex-col-reverse md:flex-row md:text-left items-center justify-between tracking-wide text-center min-h-[600px] px-10">
+            <div className="w-4/5  z-100">
                 <h1 className="relative text-5xl md:text-7xl font-bold leading-tight">
                     <span
                         className="name">
@@ -31,8 +33,9 @@ export default function Hero() {
                 </div>
             </div>
 
-            <div className="w-3/5">
+            <div className="w-3/5 relative">
                 <img src="/hero_avatar.png" alt="" className="block" />
+                <ColorfulBlurShapes />
             </div>
         </div>
     )

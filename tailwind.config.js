@@ -8,9 +8,11 @@ export default {
     extend: {
       boxShadow: {
         'eql': '0 0 40px -15px rgba(0, 0, 0, 0.3)',
+      },
+      blur: {
+        '4xl': '100px'
       }
     },
   },
   plugins: [],
 }
-

@@ -3,7 +3,7 @@ import { TbMenu2 } from "react-icons/tb";
 
 export default function Header() {
     return (
-        <header className="flex justify-between p-4 md:p-8  relative">
+        <header className="flex justify-between p-4 md:px-8  relative">
             <nav className=" border-gray-200 w-full">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <a
@@ -18,23 +18,24 @@ export default function Header() {
                         <a
                             href="/ejs.pdf"
                             download type="button"
-                            className="text-white focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-sm px-4 py-2 text-center  flex font-semibold items-center">
+                            className="text-white focus:bg-zinc-700 focus:outline-none focus:ring-blue-300 rounded-lg text-sm px-4 py-2 text-center  flex font-semibold items-center">
                             Resume
                             <span
-                                className="ml-2"><TbDownload />
+                                className="ml-2">
+                                <TbDownload />
                             </span>
                         </a>
                         <button
                             data-collapse-toggle="navbar-cta"
                             type="button"
-                            className="inline-flex items-center p-2 w-10 h-10 justify-center text-2xl text-white md:hidden focus:outline-none"
+                            className="inline-flex items-center p-2 w-10 h-10 justify-center text-white md:hidden focus:outline-none"
                             aria-controls="navbar-cta"
                             aria-expanded="false">
                             <span
                                 className="sr-only">
                                 Open main menu
                             </span>
-                            <TbMenu2 />
+                            Menu
                         </button>
                     </div>
                     <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
