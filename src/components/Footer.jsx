@@ -2,7 +2,7 @@ import { SiBuymeacoffee } from "react-icons/si";
 
 export default function Footer() {
     return (
-        <footer className="p-4 md:p-10 mt-10">
+        <footer className="p-4 md:p-10 mt-10 max-w-7xl m-auto">
             <div className=" p-4 bg-gradient-to-t from-neutral-950 to-neutral-500 border-2 rounded-xl border-zinc-500 md:p-10 md:pb-0">
                 <div className="flex gap-6 md:items-center flex-col md:flex-row justify-around">
                     <div className="flex items-center justify-around">
