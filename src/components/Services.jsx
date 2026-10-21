@@ -19,26 +19,26 @@ export default function Services() {
     return (
         <div
             id="services"
-            className="mt-24 px-10">
-            <h1 className="text-center md:text-left font-semibold text-3xl underline md:text-5xl mb-10">
+            className="mt-24">
+            <h1 className="px-10 text-center md:text-left font-semibold text-3xl underline md:text-5xl mb-10">
                 What can I Do
             </h1>
-            <div
-                className="relative -left-20 text-nowrap md:text-3xl py-2 md:py-4 my-2 slide font-thin">
-                <div className="inline-block">
-                    {mixServicesEls(servicesEls)}
+            <div className="relative left-1/2 w-screen -translate-x-1/2 overflow-hidden">
+                <div className="relative text-nowrap md:text-3xl py-2 md:py-4 my-2 slide font-thin">
+                    <div className="inline-block">
+                        {mixServicesEls(servicesEls)}
+                    </div>
+                    <div className="inline-block">
+                        {mixServicesEls(servicesEls)}
+                    </div>
                 </div>
-                <div className="inline-block">
-                    {mixServicesEls(servicesEls)}
-                </div>
-            </div>
-            <div
-                className="relative -left-20 text-nowrap font-thin md:text-3xl py-2 md:py-4 my-2 slide">
-                <div className="inline-block">
-                    {mixServicesEls(servicesEls)}
-                </div>
-                <div className="inline-block">
-                    {mixServicesEls(servicesEls)}
+                <div className="relative text-nowrap font-thin md:text-3xl py-2 md:py-4 my-2 slide">
+                    <div className="inline-block">
+                        {mixServicesEls(servicesEls)}
+                    </div>
+                    <div className="inline-block">
+                        {mixServicesEls(servicesEls)}
+                    </div>
                 </div>
             </div>
         </div>
