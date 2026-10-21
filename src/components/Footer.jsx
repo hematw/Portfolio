@@ -24,7 +24,7 @@ export default function Footer() {
                                 <li className="mt-2 md:mt-6"><a href="https://www.linkedin.com/in/hematw" target="_blank">LinkedIn</a></li>
                                 <li className="mt-2 md:mt-6"><a href="https://www.x.com/_hematw" target="_blank">Twitter</a></li>
                                 <li className="mt-2 md:mt-6"><a href="https://www.github.com/hematw" target="_blank">Github</a></li>
-                                <li className="mt-2 md:mt-6"><a href="mailto:hematking12@gmail.com" target="_blank">Send Email</a></li>
+                                <li className="mt-2 md:mt-6"><a href="mailto:hematullahw@gmail.com">Send Email</a></li>
                             </ul>
                         </div>
                         <div className="text-sm md:text-lg w-1/2">
@@ -32,6 +32,7 @@ export default function Footer() {
                             <ul className="text-neutral-300 font-thin ">
                                 <li className="mt-2 md:mt-6"><a href="#home">Home</a></li>
                                 <li className="mt-2 md:mt-6"><a href="#about">About</a></li>
+                                <li className="mt-2 md:mt-6"><a href="#experience">Experience</a></li>
                                 <li className="mt-2 md:mt-6"><a href="#projects">Projects</a></li>
                                 <li className="mt-2 md:mt-6"><a href="#services">Services</a></li>
                             </ul>

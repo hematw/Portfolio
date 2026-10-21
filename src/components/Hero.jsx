@@ -15,18 +15,18 @@ export default function Hero() {
                 </h1>
 
                 <h3 className="text-xl md:text-3xl font-light leading-snug mt-4 md:mt-10">
-                    An aspiring MERN Stack Developer. Bringing ideas to life through code, crafting dynamic and engaging applications that innovate and inspire.
+                    Full stack developer building payment systems and multi-module platforms with React, Next.js, and Node.js.
                 </h3>
 
                 <div className="flex flex-col md:flex-row gap-4 mt-10 text-lg md:text-2xl">
                     <a
-                        href="mailto:hematking12@gmail.com"
+                        href="mailto:hematullahw@gmail.com"
                         className="px-10 py-4 rounded-2xl relative hero-btn">
                         Hire Me
                     </a>
 
                     <a
-                        href="#"
+                        href="#about"
                         className="px-10 py-4 rounded-2xl relative hero-btn">
                         My Story
                     </a>

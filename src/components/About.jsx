@@ -1,33 +1,33 @@
 export default function About() {
   return (
     <div>
-      <div className="absolute left-0">
-        <div className="relative -left-5 md:-left-20 text-nowrap font-semibold md:text-3xl py-2 md:py-4 shadow-eql shadow-white -rotate-3 my-20 slide overflow-hidden">
+      <div className="absolute inset-x-0 overflow-hidden">
+        <div className="relative text-nowrap font-semibold md:text-3xl py-2 md:py-4 shadow-eql shadow-white -rotate-3 my-20 slide">
           <div className="inline-block uppercase">
-            <span>ReactJS</span>
-            <span>TailwindCSS</span>
-            <span>Bootstrap</span>
-            <span>NodeJS</span>
-            <span>ExpressJS</span>
-            <span>Javascript</span>
-            <span>Mongo DB</span>
-            <span>Mysql</span>
-            <span>RESTful API</span>
-            <span>HTML</span>
-            <span>CSS</span>
+            <span>Next.js</span>
+            <span>React</span>
+            <span>TypeScript</span>
+            <span>Node.js</span>
+            <span>Nest.js</span>
+            <span>PostgreSQL</span>
+            <span>MongoDB</span>
+            <span>Redis</span>
+            <span>RabbitMQ</span>
+            <span>Docker</span>
+            <span>Tailwind CSS</span>
           </div>
           <div className="inline-block uppercase">
-            <span>ReactJS</span>
-            <span>TailwindCSS</span>
-            <span>Bootstrap</span>
-            <span>NodeJS</span>
-            <span>ExpressJS</span>
-            <span>RESTful API</span>
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>Javascript</span>
-            <span>Mongo DB</span>
-            <span>Mysql</span>
+            <span>Next.js</span>
+            <span>React</span>
+            <span>TypeScript</span>
+            <span>Node.js</span>
+            <span>Nest.js</span>
+            <span>PostgreSQL</span>
+            <span>MongoDB</span>
+            <span>Redis</span>
+            <span>RabbitMQ</span>
+            <span>Docker</span>
+            <span>Tailwind CSS</span>
           </div>
         </div>
       </div>
@@ -41,11 +41,12 @@ export default function About() {
           </div>
 
           <p className="text-justify mt-8 md:text-2xl md:w-2/3">
-            Hello! I'm Hematullah Waziri, an aspiring MERN Stack Developer with
-            a passion for creating dynamic and engaging web applications.
-            Currently, I'm in my 6th semester of Computer Science at Kabul
-            Polytechnic University, where I'm honing my skills and expanding my
-            knowledge in various aspects of web development.
+            Hello! I am Hematullah Waziri, a full stack developer with
+            experience building payment systems and complex web platforms. I
+            previously worked at AfghanPAY on mobile top-up and digital
+            payments, and I currently work at Green State Power on Connectub.
+            I am finishing a Computer Science degree at Kabul Polytechnic
+            University.
           </p>
         </div>
         <div className="flex justify-between gap-1 text-center ">

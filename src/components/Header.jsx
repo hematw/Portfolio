@@ -47,6 +47,7 @@ export default function Header() {
                             <li>
                                 <a
                                     href="#home"
+                                    onClick={() => setMenuOpen(false)}
                                     className="block py-2 px-3 md:p-0 md:hover:bg-transparent md:hover:scale-105 text-white hover:bg-gray-700 hover:text-white border-gray-700"
                                     aria-current="page">
                                     Home
@@ -55,13 +56,23 @@ export default function Header() {
                             <li>
                                 <a
                                     href="#about"
+                                    onClick={() => setMenuOpen(false)}
                                     className="block py-2 px-3 md:p-0 md:hover:bg-transparent md:hover:scale-105 text-white hover:bg-gray-700 hover:text-white border-gray-700">
                                     About
                                 </a>
                             </li>
                             <li>
                                 <a
+                                    href="#experience"
+                                    onClick={() => setMenuOpen(false)}
+                                    className="block py-2 px-3 md:p-0 md:hover:bg-transparent md:hover:scale-105 text-white hover:bg-gray-700 hover:text-white border-gray-700">
+                                    Experience
+                                </a>
+                            </li>
+                            <li>
+                                <a
                                     href="#projects"
+                                    onClick={() => setMenuOpen(false)}
                                     className="block py-2 px-3 md:p-0 md:hover:bg-transparent md:hover:scale-105 text-white hover:bg-gray-700 hover:text-white border-gray-700">
                                     Projects
                                 </a>
@@ -69,6 +80,7 @@ export default function Header() {
                             <li>
                                 <a
                                     href="#services"
+                                    onClick={() => setMenuOpen(false)}
                                     className="block py-2 px-3 md:p-0 md:hover:bg-transparent md:hover:scale-105 text-white hover:bg-gray-700 hover:text-white border-gray-700">
                                     Services
                                 </a>
