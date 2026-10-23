@@ -85,6 +85,7 @@ collections:
             summary: "{{company}} - {{role}}"
             fields:
               - { name: company, label: Company, widget: string }
+              - { name: logo, label: Company logo, widget: image, required: false }
               - { name: role, label: Role, widget: string }
               - { name: dates, label: Dates, widget: string }
               - { name: summary, label: Summary, widget: text }

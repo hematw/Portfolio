@@ -3,6 +3,7 @@
   "jobs": [
     {
       "company": "Green State Power",
+      "logo": "",
       "role": "Full Stack Developer",
       "dates": "July 2025 - Present",
       "summary": "Building Connectub, an all-in-one platform for jobs, tenders, marketplace, property, and investments. Designed microservices so each module can ship and scale on its own.",
@@ -18,6 +19,7 @@
     },
     {
       "company": "AfghanPAY",
+      "logo": "",
       "role": "Full Stack Developer",
       "dates": "November 2024 - July 2025",
       "summary": "Worked on mobile top-up and digital payment systems. Built secure transaction APIs, authentication with role-based access, and background jobs for top-up requests.",
@@ -33,6 +35,7 @@
     },
     {
       "company": "SobhanSoft Afghanistan",
+      "logo": "",
       "role": "Frontend Developer",
       "dates": "May 2024 - August 2024",
       "summary": "Part of the Mowlana developer community. Shipped MERN stack projects, including Tech News, a site for sharing tech updates.",
@@ -46,6 +49,7 @@
     },
     {
       "company": "MCIT Afghanistan",
+      "logo": "",
       "role": "Backend Developer Intern",
       "dates": "January 2023 - March 2023",
       "summary": "Built a typing test app that measures speed in real time, and worked with the team to get the project delivered.",
