@@ -49,7 +49,7 @@ export default function Experience() {
                                     <img
                                         src={job.logo}
                                         alt={`${job.company} logo`}
-                                        className="h-full w-full object-contain grayscale transition-all duration-300 group-hover:grayscale-0"
+                                        className="h-full w-full object-contain grayscale transition-all duration-300 ease-in-out group-hover:grayscale-0"
                                     />
                                 ) : (
                                     <div className="flex h-full w-full items-center justify-center text-xl font-bold text-neutral-500">
