@@ -1,0 +1,14 @@
+{
+  "firstName": "Hematullah",
+  "lastName": "Waziri",
+  "tagline": "Full stack developer building payment systems and multi-module platforms with React, Next.js, and Node.js.",
+  "image": "/1.png",
+  "primaryCta": {
+    "label": "Hire Me",
+    "href": "mailto:hematullahw@gmail.com"
+  },
+  "secondaryCta": {
+    "label": "My Story",
+    "href": "#about"
+  }
+}

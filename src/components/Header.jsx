@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { TbDownload } from "react-icons/tb";
+import { site } from "../content";
 
 export default function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -14,12 +15,12 @@ export default function Header() {
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
                         <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
-                            Hemat
+                            {site.brand}
                         </span>
                     </a>
                     <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
                         <a
-                            href="/Hemat_resume.pdf"
+                            href={site.resume}
                             download
                             type="button"
                             className="text-white focus:bg-zinc-700 focus:outline-none focus:ring-blue-300 rounded-lg text-sm px-4 py-2 text-center flex font-semibold items-center">

@@ -1,0 +1,32 @@
+{
+  "title": "About Me",
+  "body": "Hello! I am Hematullah Waziri, a full stack developer with experience building payment systems and complex web platforms. I previously worked at AfghanPAY on mobile top-up and digital payments, and I currently work at Green State Power on Connectub. I am finishing a Computer Science degree at Kabul Polytechnic University.",
+  "image": "/3.png",
+  "skills": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Node.js",
+    "Nest.js",
+    "PostgreSQL",
+    "MongoDB",
+    "Redis",
+    "RabbitMQ",
+    "Docker",
+    "Tailwind CSS"
+  ],
+  "stats": [
+    {
+      "value": "2+",
+      "label": "Years of Development Experience"
+    },
+    {
+      "value": "10+",
+      "label": "Overall Customers"
+    },
+    {
+      "value": "20+",
+      "label": "Projects I Have Worked on"
+    }
+  ]
+}

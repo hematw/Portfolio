@@ -1,0 +1,29 @@
+{
+  "brand": "Hemat",
+  "fullName": "Hematullah Waziri",
+  "email": "hematullahw@gmail.com",
+  "resume": "/Hemat_resume.pdf",
+  "coffeeUrl": "https://buymeacoffee.com/hekax8rf06",
+  "footerImage": "/2.png",
+  "socials": [
+    {
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/in/hematw"
+    },
+    {
+      "label": "Twitter",
+      "href": "https://www.x.com/_hematw"
+    },
+    {
+      "label": "Github",
+      "href": "https://www.github.com/hematw"
+    }
+  ],
+  "navLinks": [
+    { "label": "Home", "href": "#home" },
+    { "label": "About", "href": "#about" },
+    { "label": "Experience", "href": "#experience" },
+    { "label": "Projects", "href": "#projects" },
+    { "label": "Services", "href": "#services" }
+  ]
+}

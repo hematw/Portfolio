@@ -1,4 +1,5 @@
 import { SiBuymeacoffee } from "react-icons/si";
+import { site } from "../content";
 
 export default function Footer() {
     return (
@@ -7,10 +8,10 @@ export default function Footer() {
                 <div className="flex gap-6 md:items-center flex-col md:flex-row justify-around">
                     <div className="flex items-center justify-around">
                         <div className="w-1/3 h-44">
-                            <img src="/2.png" alt="" className="md:w-72 m-auto" />
+                            <img src={site.footerImage} alt="" className="md:w-72 m-auto" />
                         </div>
                         <a
-                            href="https://buymeacoffee.com/hekax8rf06"
+                            href={site.coffeeUrl}
                             target="_blank"
                             className="bg-yellow-400 text-black flex items-center rounded-xl px-4 py-2 text-lg font-semibold border">
                             <SiBuymeacoffee />
@@ -21,26 +22,32 @@ export default function Footer() {
                         <div className="text-sm md:text-lg w-1/2">
                             <h3 className="font-semibold">Professional Links</h3>
                             <ul className="text-neutral-300 font-thin ">
-                                <li className="mt-2 md:mt-6"><a href="https://www.linkedin.com/in/hematw" target="_blank">LinkedIn</a></li>
-                                <li className="mt-2 md:mt-6"><a href="https://www.x.com/_hematw" target="_blank">Twitter</a></li>
-                                <li className="mt-2 md:mt-6"><a href="https://www.github.com/hematw" target="_blank">Github</a></li>
-                                <li className="mt-2 md:mt-6"><a href="mailto:hematullahw@gmail.com">Send Email</a></li>
+                                {site.socials.map((link) => (
+                                    <li key={link.href} className="mt-2 md:mt-6">
+                                        <a href={link.href} target="_blank" rel="noreferrer">
+                                            {link.label}
+                                        </a>
+                                    </li>
+                                ))}
+                                <li className="mt-2 md:mt-6">
+                                    <a href={`mailto:${site.email}`}>Send Email</a>
+                                </li>
                             </ul>
                         </div>
                         <div className="text-sm md:text-lg w-1/2">
                             <h3 className="font-semibold">Quick Menu</h3>
                             <ul className="text-neutral-300 font-thin ">
-                                <li className="mt-2 md:mt-6"><a href="#home">Home</a></li>
-                                <li className="mt-2 md:mt-6"><a href="#about">About</a></li>
-                                <li className="mt-2 md:mt-6"><a href="#experience">Experience</a></li>
-                                <li className="mt-2 md:mt-6"><a href="#projects">Projects</a></li>
-                                <li className="mt-2 md:mt-6"><a href="#services">Services</a></li>
+                                {site.navLinks.map((link) => (
+                                  <li key={link.href} className="mt-2 md:mt-6">
+                                    <a href={link.href}>{link.label}</a>
+                                  </li>
+                                ))}
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div className="text-sm text-neutral-300 py-6 border-t-2 mt-8">
-                    &copy;{new Date().getFullYear()} Hematullah Waziri. All Right Reserved
+                    &copy;{new Date().getFullYear()} {site.fullName}. All Right Reserved
                 </div>
             </div>
         </footer>

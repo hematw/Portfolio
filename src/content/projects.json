@@ -1,0 +1,68 @@
+{
+  "title": "Projects",
+  "items": [
+    {
+      "title": "Atom Foods",
+      "description": "Recipe explorer for dishes from around the world, searchable by ingredient.",
+      "image": "/atom_foods.jpg",
+      "href": "https://food-recipe-react-rho.vercel.app/",
+      "featured": false,
+      "theme": "",
+      "tags": ["React", "Tailwind", "TheMealDB"]
+    },
+    {
+      "title": "Atom Cafe",
+      "description": "Mobile-first food ordering with a dark menu and cart.",
+      "image": "/atom_cafe.jpg",
+      "href": "https://hematw.github.io/Food-Ordering-app/",
+      "featured": false,
+      "theme": "",
+      "tags": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "title": "Typing Game",
+      "description": "Timed typing practice that tracks mistakes and speed as you type.",
+      "image": "/typing.jpg",
+      "href": "https://hematw.github.io/Typing-Game/",
+      "featured": true,
+      "theme": "",
+      "tags": ["JavaScript", "HTML", "CSS"]
+    },
+    {
+      "title": "Tech News",
+      "description": "MERN newsletter for sharing tech updates with a clean reading UI.",
+      "image": "/news_app.jpg",
+      "href": "https://news-app-tau-ten.vercel.app/",
+      "featured": false,
+      "theme": "",
+      "tags": ["React", "Node.js", "MongoDB"]
+    },
+    {
+      "title": "Quizzical",
+      "description": "Trivia quiz with scored rounds and instant true or false feedback.",
+      "image": "/quizzical.jpg",
+      "href": "https://quizzical-eta.vercel.app/",
+      "featured": false,
+      "theme": "",
+      "tags": ["React", "API"]
+    },
+    {
+      "title": "Gapistan",
+      "description": "Real-time chat with messaging, file sharing, and audio/video calls.",
+      "image": "",
+      "href": "https://github.com/hematw/Gapistan-frontend",
+      "featured": false,
+      "theme": "pink",
+      "tags": ["React", "Node.js", "Socket.IO", "WebRTC"]
+    },
+    {
+      "title": "100-Khana",
+      "description": "Marketplace for rent, sale, and mortgages, with maps.",
+      "image": "",
+      "href": "https://github.com/hematw/100_Khana-Frontend",
+      "featured": false,
+      "theme": "amber",
+      "tags": ["React", "Node.js", "MongoDB", "Google Maps"]
+    }
+  ]
+}

@@ -1,8 +1,8 @@
-export default function Services() {
-    const services = ["Responsive Web Design", "Single Page Application", "API Integration", "Web Optimization", "RESTful Services", "Front-end Development", "Web Accessibility", "Back-end Development"];
+import { services, stringsOf } from "../content";
 
-    const servicesEls = services.map((service, index) => (
-        <span key={index} className="border-2 border-gray-400 rounded-3xl py-2 px-4 m-2 bg-gradient-to-t from-zinc-900 to-zinc-700">
+export default function Services() {
+    const servicesEls = stringsOf(services.items).map((service) => (
+        <span key={service} className="border-2 border-gray-400 rounded-3xl py-2 px-4 m-2 bg-gradient-to-t from-zinc-900 to-zinc-700">
             {service}
         </span>
     ))
@@ -11,7 +11,7 @@ export default function Services() {
         const array = [...arr]
         for (let i = array.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
-            [array[i], array[j]] = [array[j], array[i]]; // Swap elements
+            [array[i], array[j]] = [array[j], array[i]];
         }
         return array;
     }
@@ -21,7 +21,7 @@ export default function Services() {
             id="services"
             className="mt-24">
             <h1 className="px-10 text-center md:text-left font-semibold text-3xl underline md:text-5xl mb-10">
-                What can I Do
+                {services.title}
             </h1>
             <div className="relative left-1/2 w-screen -translate-x-1/2 overflow-hidden">
                 <div className="relative text-nowrap md:text-3xl py-2 md:py-4 my-2 slide font-thin">

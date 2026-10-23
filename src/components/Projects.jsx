@@ -1,64 +1,16 @@
 import { TbArrowUpRight } from "react-icons/tb";
 import ColorfulBlurShapesTwo from "./ColorfulBlurShapeTwo";
+import { projects, stringsOf } from "../content";
 
-const projects = [
-    {
-        title: "Atom Foods",
-        description: "Recipe explorer for dishes from around the world, searchable by ingredient.",
-        image: "./atom_foods.jpg",
-        href: "https://food-recipe-react-rho.vercel.app/",
-        tags: ["React", "Tailwind", "TheMealDB"],
-    },
-    {
-        title: "Atom Cafe",
-        description: "Mobile-first food ordering with a dark menu and cart.",
-        image: "./atom_cafe.jpg",
-        href: "https://hematw.github.io/Food-Ordering-app/",
-        tags: ["HTML", "CSS", "JavaScript"],
-    },
-    {
-        title: "Typing Game",
-        description: "Timed typing practice that tracks mistakes and speed as you type.",
-        image: "./typing.jpg",
-        href: "https://hematw.github.io/Typing-Game/",
-        tags: ["JavaScript", "HTML", "CSS"],
-        featured: true,
-    },
-    {
-        title: "Tech News",
-        description: "MERN newsletter for sharing tech updates with a clean reading UI.",
-        image: "./news_app.jpg",
-        href: "https://news-app-tau-ten.vercel.app/",
-        tags: ["React", "Node.js", "MongoDB"],
-    },
-    {
-        title: "Quizzical",
-        description: "Trivia quiz with scored rounds and instant true or false feedback.",
-        image: "./quizzical.jpg",
-        href: "https://quizzical-eta.vercel.app/",
-        tags: ["React", "API"],
-    },
-    {
-        title: "Gapistan",
-        description:
-            "Real-time chat with messaging, file sharing, and audio/video calls.",
-        href: "https://github.com/hematw/Gapistan-frontend",
-        tags: ["React", "Node.js", "Socket.IO", "WebRTC"],
-        blobs: ["bg-pink-600", "bg-blue-500", "bg-amber-400"],
-    },
-    {
-        title: "100-Khana",
-        description: "Marketplace for rent, sale, and mortgages, with maps.",
-        href: "https://github.com/hematw/100_Khana-Frontend",
-        tags: ["React", "Node.js", "MongoDB", "Google Maps"],
-        blobs: ["bg-amber-400", "bg-red-500", "bg-blue-500"],
-    },
-];
+const blobThemes = {
+    pink: ["bg-pink-600", "bg-blue-500", "bg-amber-400"],
+    amber: ["bg-amber-400", "bg-red-500", "bg-blue-500"],
+};
 
 function TagList({ tags }) {
     return (
         <div className="mt-3 flex flex-wrap gap-2">
-            {tags.map((tag) => (
+            {stringsOf(tags).map((tag) => (
                 <span
                     key={tag}
                     className="rounded-3xl border-2 border-gray-400 bg-gradient-to-t from-zinc-900 to-zinc-700 px-3 py-1 text-xs md:text-sm"
@@ -70,7 +22,9 @@ function TagList({ tags }) {
     );
 }
 
-function ProjectCard({ title, description, image, href, tags, featured, blobs }) {
+function ProjectCard({ title, description, image, href, tags, featured, theme }) {
+    const blobs = blobThemes[theme] || blobThemes.pink;
+
     return (
         <a
             href={href}
@@ -132,11 +86,11 @@ export default function Projects() {
         <div id="projects" className="relative m-auto p-10">
             <div>
                 <h1 className="text-center text-3xl font-semibold underline md:text-left md:text-5xl">
-                    Projects
+                    {projects.title}
                 </h1>
             </div>
             <div className="mt-8 grid grid-cols-1 gap-6 md:mt-12 md:grid-cols-2 md:gap-10">
-                {projects.map((project) => (
+                {projects.items.map((project) => (
                     <ProjectCard key={project.title} {...project} />
                 ))}
             </div>

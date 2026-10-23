@@ -7,13 +7,14 @@ import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
 import Services from "./components/Services";
+import { site } from './content'
 
 
 function App() {
 
   useEffect(() => {
-    document.title = "Hematullah Waziri | Portfolio"
-  })
+    document.title = `${site.fullName} | Portfolio`
+  }, [])
 
   return (
     <>

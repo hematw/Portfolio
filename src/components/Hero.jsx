@@ -1,4 +1,5 @@
 import ColorfulBlurShapes from "./ColorfulBlurShapes"
+import { hero } from "../content"
 
 export default function Hero() {
     return (
@@ -9,32 +10,32 @@ export default function Hero() {
                 <h1 className="relative text-5xl md:text-7xl font-bold leading-tight">
                     <span
                         className="name relative inline-block">
-                        Hematullah
+                        {hero.firstName}
                     </span>
-                    <br /> Waziri
+                    <br /> {hero.lastName}
                 </h1>
 
                 <h3 className="text-xl md:text-3xl font-light leading-snug mt-4 md:mt-10">
-                    Full stack developer building payment systems and multi-module platforms with React, Next.js, and Node.js.
+                    {hero.tagline}
                 </h3>
 
                 <div className="flex flex-col md:flex-row gap-4 mt-10 text-lg md:text-2xl">
                     <a
-                        href="mailto:hematullahw@gmail.com"
+                        href={hero.primaryCta.href}
                         className="px-10 py-4 rounded-2xl relative hero-btn">
-                        Hire Me
+                        {hero.primaryCta.label}
                     </a>
 
                     <a
-                        href="#about"
+                        href={hero.secondaryCta.href}
                         className="px-10 py-4 rounded-2xl relative hero-btn">
-                        My Story
+                        {hero.secondaryCta.label}
                     </a>
                 </div>
             </div>
 
             <div className="w-3/5 relative">
-                <img src="/1.png" alt="" className="block" />
+                <img src={hero.image} alt="" className="block" />
                 <ColorfulBlurShapes />
             </div>
         </div>
