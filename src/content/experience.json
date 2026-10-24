@@ -3,7 +3,7 @@
   "jobs": [
     {
       "company": "Green State Power",
-      "logo": "",
+      "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQFfIc_6e7JVDw/company-logo_200_200/B4DZ.Ygq8UJwAI-/0/1784970129556/connectub_logo?e=1794441600&v=beta&t=TSNTKdnmDRpVbmcSW7m_jUA95TDrVqdCvVJMMN_eFNw",
       "role": "Full Stack Developer",
       "dates": "July 2025 - Present",
       "summary": "Building Connectub, an all-in-one platform for jobs, tenders, marketplace, property, and investments. Designed microservices so each module can ship and scale on its own.",
@@ -14,12 +14,11 @@
         "React",
         "Docker",
         "Microservices"
-      ],
-      "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQFfIc_6e7JVDw/company-logo_200_200/B4DZ.Ygq8UJwAI-/0/1784970129556/connectub_logo?e=1794441600&v=beta&t=TSNTKdnmDRpVbmcSW7m_jUA95TDrVqdCvVJMMN_eFNw"
+      ]
     },
     {
       "company": "AfghanPAY",
-      "logo": "",
+      "logo": "/uploads/afghanpay.png",
       "role": "Full Stack Developer",
       "dates": "November 2024 - July 2025",
       "summary": "Worked on mobile top-up and digital payment systems. Built secure transaction APIs, authentication with role-based access, and background jobs for top-up requests.",
@@ -35,7 +34,7 @@
     },
     {
       "company": "SobhanSoft Afghanistan",
-      "logo": "",
+      "logo": "/uploads/sobhan.jpg",
       "role": "Frontend Developer",
       "dates": "May 2024 - August 2024",
       "summary": "Part of the Mowlana developer community. Shipped MERN stack projects, including Tech News, a site for sharing tech updates.",
@@ -49,7 +48,7 @@
     },
     {
       "company": "MCIT Afghanistan",
-      "logo": "",
+      "logo": "/uploads/emarat_new_mcit_logo_asad_1401.png",
       "role": "Backend Developer Intern",
       "dates": "January 2023 - March 2023",
       "summary": "Built a typing test app that measures speed in real time, and worked with the team to get the project delivered.",
@@ -58,6 +57,20 @@
       "tags": [
         "JavaScript",
         "Backend"
+      ]
+    },
+    {
+      "company": "Codeweekend",
+      "logo": "/uploads/codeweekend.png",
+      "role": "Mentor Assistant",
+      "dates": "March 2026 - Augest 2026",
+      "summary": "Assisted students at CodeWeekend with hands-on coding exercises and practical projects.\nHelped students apply programming concepts and solve technical challenges.",
+      "tags": [
+        "Mentoring",
+        "Programming",
+        "Student Support",
+        "Technical Troubleshooting",
+        "Team Collaboration"
       ]
     }
   ]
