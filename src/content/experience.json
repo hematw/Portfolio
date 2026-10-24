@@ -17,6 +17,20 @@
       ]
     },
     {
+      "company": "Codeweekend",
+      "logo": "/uploads/codeweekend.png",
+      "role": "Mentor Assistant",
+      "dates": "March 2026 - Augest 2026",
+      "summary": "Assisted students at CodeWeekend with hands-on coding exercises and practical projects.\nHelped students apply programming concepts and solve technical challenges.",
+      "tags": [
+        "Mentoring",
+        "Programming",
+        "Student Support",
+        "Technical Troubleshooting",
+        "Team Collaboration"
+      ]
+    },
+    {
       "company": "AfghanPAY",
       "logo": "/uploads/afghanpay.png",
       "role": "Full Stack Developer",
@@ -57,20 +71,6 @@
       "tags": [
         "JavaScript",
         "Backend"
-      ]
-    },
-    {
-      "company": "Codeweekend",
-      "logo": "/uploads/codeweekend.png",
-      "role": "Mentor Assistant",
-      "dates": "March 2026 - Augest 2026",
-      "summary": "Assisted students at CodeWeekend with hands-on coding exercises and practical projects.\nHelped students apply programming concepts and solve technical challenges.",
-      "tags": [
-        "Mentoring",
-        "Programming",
-        "Student Support",
-        "Technical Troubleshooting",
-        "Team Collaboration"
       ]
     }
   ]
