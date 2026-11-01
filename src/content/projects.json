@@ -2,31 +2,43 @@
   "title": "Projects",
   "items": [
     {
-      "title": "Atom Foods",
-      "description": "Recipe explorer for dishes from around the world, searchable by ingredient.",
-      "image": "/atom_foods.jpg",
-      "href": "https://food-recipe-react-rho.vercel.app/",
+      "title": "Bazi90 - Sport venues booking and much more",
+      "description": "Bazi90 is a sports venue booking and management platform that connects players with sports facilities, making it easy to discover venues, book playing sessions, organize matches, and manage reservations. It simplifies sports facility management while creating a more accessible and connected sports community in Afghanistan.",
+      "image": "/uploads/screenshot-2026-11-01_12-42-12.png",
+      "href": "https://bazi90.com",
       "featured": false,
-      "theme": "",
-      "tags": ["React", "Tailwind", "TheMealDB"]
+      "theme": "pink",
+      "tags": [
+        "React",
+        "Tailwind",
+        "TheMealDB"
+      ]
     },
     {
-      "title": "Atom Cafe",
-      "description": "Mobile-first food ordering with a dark menu and cart.",
-      "image": "/atom_cafe.jpg",
-      "href": "https://hematw.github.io/Food-Ordering-app/",
+      "title": "Unity Contruction Management System",
+      "description": "Unity Construction is a modern construction management and ERP platform designed to streamline construction projects, tenders, procurement, workforce management, budgeting, and project operations. It helps construction companies manage resources, improve collaboration, and maintain control over every stage of their projects.",
+      "image": "/uploads/images.jpg",
+      "href": "#",
       "featured": false,
       "theme": "",
-      "tags": ["HTML", "CSS", "JavaScript"]
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
     },
     {
-      "title": "Typing Game",
-      "description": "Timed typing practice that tracks mistakes and speed as you type.",
-      "image": "/typing.jpg",
-      "href": "https://hematw.github.io/Typing-Game/",
-      "featured": true,
+      "title": "Unity Learning Management System",
+      "description": "UnityLearn a customized Learning Management System (LMS) designed to deliver a modern, scalable online learning experience. The platform extends the core LearnHouse capabilities with tailored learning workflows, course and content management, student and instructor management, assessments, progress tracking, and interactive learning experiences. It aims to make quality education more accessible while providing institutions with the tools to manage and scale their digital learning environments.",
+      "image": "/uploads/podcasts-learnhouse-preview.jpg",
+      "href": "#",
+      "featured": false,
       "theme": "",
-      "tags": ["JavaScript", "HTML", "CSS"]
+      "tags": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ]
     },
     {
       "title": "Tech News",
@@ -35,16 +47,11 @@
       "href": "https://news-app-tau-ten.vercel.app/",
       "featured": false,
       "theme": "",
-      "tags": ["React", "Node.js", "MongoDB"]
-    },
-    {
-      "title": "Quizzical",
-      "description": "Trivia quiz with scored rounds and instant true or false feedback.",
-      "image": "/quizzical.jpg",
-      "href": "https://quizzical-eta.vercel.app/",
-      "featured": false,
-      "theme": "",
-      "tags": ["React", "API"]
+      "tags": [
+        "React",
+        "Node.js",
+        "MongoDB"
+      ]
     },
     {
       "title": "Gapistan",
@@ -53,7 +60,12 @@
       "href": "https://github.com/hematw/Gapistan-frontend",
       "featured": false,
       "theme": "pink",
-      "tags": ["React", "Node.js", "Socket.IO", "WebRTC"]
+      "tags": [
+        "React",
+        "Node.js",
+        "Socket.IO",
+        "WebRTC"
+      ]
     },
     {
       "title": "100-Khana",
@@ -62,7 +74,19 @@
       "href": "https://github.com/hematw/100_Khana-Frontend",
       "featured": false,
       "theme": "amber",
-      "tags": ["React", "Node.js", "MongoDB", "Google Maps"]
+      "tags": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Google Maps"
+      ]
+    },
+    {
+      "featured": false,
+      "description": "Unity e-Store a modern digital media platform designed to simplify content creation, management, and distribution. It provides a centralized environment for organizing media, managing digital assets, and delivering engaging content through an intuitive and scalable experience.",
+      "title": "Unity e-Store",
+      "href": "#",
+      "image": "/uploads/image.jpg"
     }
   ]
 }
