@@ -9,9 +9,10 @@
       "featured": false,
       "theme": "pink",
       "tags": [
-        "React",
-        "Tailwind",
-        "TheMealDB"
+        "Next.js",
+        "Nest.js",
+        "Postgresql",
+        "Realtime"
       ]
     },
     {
@@ -22,9 +23,10 @@
       "featured": false,
       "theme": "",
       "tags": [
-        "HTML",
-        "CSS",
-        "JavaScript"
+        "FastAPI",
+        "Python",
+        "React",
+        "MySQL"
       ]
     },
     {
@@ -35,9 +37,9 @@
       "featured": false,
       "theme": "",
       "tags": [
-        "JavaScript",
-        "HTML",
-        "CSS"
+        "Python",
+        "Next.js",
+        "PosgreSQL"
       ]
     },
     {
