@@ -3,7 +3,7 @@
   "items": [
     {
       "title": "Bazi90 - Sport venues booking and much more",
-      "description": "Bazi90 is a sports venue booking and management platform that connects players with sports facilities, making it easy to discover venues, book playing sessions, organize matches, and manage reservations. It simplifies sports facility management while creating a more accessible and connected sports community in Afghanistan.",
+      "description": "A sports venue booking and management platform connecting players with facilities to discover venues, book sessions, and organize matches.",
       "image": "/uploads/screenshot-2026-11-01_12-42-12.png",
       "href": "https://bazi90.com",
       "featured": false,
@@ -16,7 +16,7 @@
     },
     {
       "title": "Unity Contruction Management System",
-      "description": "Unity Construction is a modern construction management and ERP platform designed to streamline construction projects, tenders, procurement, workforce management, budgeting, and project operations. It helps construction companies manage resources, improve collaboration, and maintain control over every stage of their projects.",
+      "description": "A construction management ERP platform for managing projects, tenders, procurement, resources, and operations.",
       "image": "/uploads/images.jpg",
       "href": "#",
       "featured": false,
@@ -29,7 +29,7 @@
     },
     {
       "title": "Unity Learning Management System",
-      "description": "UnityLearn a customized Learning Management System (LMS) designed to deliver a modern, scalable online learning experience. The platform extends the core LearnHouse capabilities with tailored learning workflows, course and content management, student and instructor management, assessments, progress tracking, and interactive learning experiences. It aims to make quality education more accessible while providing institutions with the tools to manage and scale their digital learning environments.",
+      "description": "A customized LMS providing course management, interactive learning, assessments, student tracking, and scalable educational experiences.",
       "image": "/uploads/podcasts-learnhouse-preview.jpg",
       "href": "#",
       "featured": false,
@@ -56,7 +56,7 @@
     {
       "title": "Gapistan",
       "description": "Real-time chat with messaging, file sharing, and audio/video calls.",
-      "image": "",
+      "image": "/uploads/screenshot-2026-11-01_13-03-20.png",
       "href": "https://github.com/hematw/Gapistan-frontend",
       "featured": false,
       "theme": "pink",
@@ -70,7 +70,7 @@
     {
       "title": "100-Khana",
       "description": "Marketplace for rent, sale, and mortgages, with maps.",
-      "image": "",
+      "image": "/uploads/images-1-.jpg",
       "href": "https://github.com/hematw/100_Khana-Frontend",
       "featured": false,
       "theme": "amber",
@@ -83,7 +83,7 @@
     },
     {
       "featured": false,
-      "description": "Unity e-Store a modern digital media platform designed to simplify content creation, management, and distribution. It provides a centralized environment for organizing media, managing digital assets, and delivering engaging content through an intuitive and scalable experience.",
+      "description": "A digital media platform for creating, organizing, managing, and distributing digital content and media assets.",
       "title": "Unity e-Store",
       "href": "#",
       "image": "/uploads/image.jpg"
